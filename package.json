@@ -18,6 +18,8 @@
   "homepage": "https://github.com/eliseohh1506/nomzlistbot#readme",
   "dependencies": {
     "axios": "^1.7.7",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.13.1"
   }
 }

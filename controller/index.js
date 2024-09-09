@@ -5,6 +5,7 @@ const {errorHandler} = require("./lib/helper");
 async function handler(req, method) {
     try {
         if(method === "GET") {
+            console.log(req.path);
             return "Hello Get";
         }
 
